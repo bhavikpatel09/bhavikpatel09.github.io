@@ -1,0 +1,26 @@
+Replace StringBuilder (use with big strings) instead of string (use with small strings) , also use StringBuilder for string concatenation
+Comparing strings by non-case-sensitive strings - remove use of ToLower() and ToUpper(), Use string.Copmpare
+Don't compare by the use of blank string ("") instead use string.Empty
+Replace ArrayList to simple List
+Optimize conditions created using && and || (set priorities and sequences)
+Remove duplicate code and create generic methods
+JS/CSS Bundling
+Do not write inline or internal css/js code
+Exception handling, using try/catch should be centralize 
+Use for loop instead of foreach
+Choose when to use class and when struct
+Should not be too much code in single file
+Static valus should be defined in configuration file
+Multiple if-else conditions should be void.
+DateTime parsing should not be there.
+Common probelms (if not centerally managed) should be try/ctach
+Utilities or common code should be at central location
+SQL- Remove sub-queries 
+SQL- Replace possible where conditions to joins
+SQL- Avoid using Ranking functions (i.e. ROW_NUMBER())
+SQL- Avoid using Union All or Union
+SQL- Do not use * in Select queries
+SQL- Remove redundant/improper conditions from where cluases (i.e. 1=2)
+
+Additional step to check warning and errors which will impact on performance:
+	Perform code analysis (with enabling all settings) by clicking on “Build -> Run Code Analysis on solution” and remove or fix all errors and warnings.
