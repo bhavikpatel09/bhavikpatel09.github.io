@@ -1,0 +1,6 @@
+Server Name: aquaprodb.database.windows.net
+Server admin login: aquapro
+Password: Bhavik@123
+US East US
+
+aquaprodb.database.windows.net
